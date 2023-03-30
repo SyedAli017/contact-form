@@ -1,0 +1,119 @@
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alkatra', sans-serif;
+    color: #4d2600;
+    background-image: url(Images/background-image.jpg);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+}
+
+.contact-form {
+    margin: auto;
+    display: flex;
+    max-width: 700px;
+    min-height: 400px;
+    background: #e4d3c4;
+    border-radius: 20px;   
+}
+
+.left-side {
+    padding: 20px;
+    border-right: #fff2e6 solid 1px;
+}    
+
+
+
+.title {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.comp-credentials {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding-right: 10px;
+    color: #994d00;
+}
+
+.fa-sharp,
+.fa-solid {
+    color: #994d00;
+    margin-right: 5px;
+}
+
+.right-side {
+    padding: 20px 35px;
+    background: transparent;
+}
+
+.contact-us {
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.form-box {
+    width: 100%;
+    border: 1px white solid;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: #fff2e6;
+}
+
+::placeholder {
+    font-family: 'Alkatra', sans-serif;
+}
+
+#message {
+    height: 150px;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #994d00;
+    color: white;
+    font-family: font-family: 'Alkatra', sans-serif;
+}
+
+@media screen and (max-width: 750px) {
+    .body {
+        padding: 10px 10px 30px 10px;
+    }
+
+    .contact-form {
+        flex-direction: column;
+        max-width: 500px;
+    }
+
+    .left-side {
+        border-right: none;
+        border-bottom: #fff2e6 solid 1px;
+    }
+    
+    .right-side {
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
